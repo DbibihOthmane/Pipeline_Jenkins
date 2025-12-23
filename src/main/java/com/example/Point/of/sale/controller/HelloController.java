@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class HelloController {
-    @GetMapping
-    public String hello(){
-        return "Hello from spring boot application :)";
-    }
+   @GetMapping
+public String hello() {
+    return "Hello from New Test :)";
+}
 
     @GetMapping("/user")
     public String getUsers(){
